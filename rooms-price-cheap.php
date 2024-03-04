@@ -110,6 +110,15 @@
                     <p class="page-description"><?php echo $resultsCategory -> description ?></p>
                 </div>
                 <section class="section location-city">
+                <a href="" class="location-item city-3">
+                        <div class="location-bg">
+                            <img src="./image/anh5.jpg" alt="">
+                        </div>
+                        <span class="location-cat">
+                            <?php echo $resultsCategory -> type ?>
+                            <span class="location-name">Hồ Chí Minh</span>
+                        </span>
+                    </a>
                     <a href="" class="location-item city-1">
                         <div class="location-bg">
                             <img src="./image/anh1.jpg" alt="">
@@ -119,24 +128,8 @@
                             <span class="location-name">Hà Nội</span>
                         </span>
                     </a>
-                    <a href="" class="location-item city-2">
-                        <div class="location-bg">
-                            <img src="./image/anh2.jpg" alt="">
-                        </div>
-                        <span class="location-cat">
-                            <?php echo $resultsCategory -> type ?>
-                            <span class="location-name">Nghệ An</span>
-                        </span>
-                    </a>
-                    <a href="" class="location-item city-3">
-                        <div class="location-bg">
-                            <img src="./image/anh5.jpg" alt="">
-                        </div>
-                        <span class="location-cat">
-                            <?php echo $resultsCategory -> type ?>
-                            <span class="location-name">Hồ Chí Minh</span>
-                        </span>
-                    </a>
+                    
+                    
                 </section>
                 <div class="row">
                     <div class="col-8">

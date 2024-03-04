@@ -127,6 +127,15 @@
               <p class="page-description">Kênh thông tin Phòng Trọ số 1 Việt Nam - Website đăng tin cho thuê phòng trọ, nhà nguyên căn, căn hộ, ở ghép nhanh, hiệu quả với 100.000+ tin đăng và 2.500.000 lượt xem mỗi tháng.</p>
           </div>
           <section class="section location-city">
+          <a href="" class="location-item city-3">
+                  <div class="location-bg">
+                      <img src="./image/anh5.jpg" alt="">
+                  </div>
+                  <span class="location-cat">
+                      Phòng trọ
+                      <span class="location-name">Hồ Chí Minh</span>
+                  </span>
+              </a>
               <a href="" class="location-item city-1">
                   <div class="location-bg">
                       <img src="./image/anh1.jpg" alt="">
@@ -136,24 +145,8 @@
                       <span class="location-name">Hà Nội</span>
                   </span>
               </a>
-              <a href="" class="location-item city-2">
-                  <div class="location-bg">
-                      <img src="./image/anh2.jpg" alt="">
-                  </div>
-                  <span class="location-cat">
-                      Phòng trọ
-                      <span class="location-name">Nghệ An</span>
-                  </span>
-              </a>
-              <a href="" class="location-item city-3">
-                  <div class="location-bg">
-                      <img src="./image/anh5.jpg" alt="">
-                  </div>
-                  <span class="location-cat">
-                      Phòng trọ
-                      <span class="location-name">Hồ Chí Minh</span>
-                  </span>
-              </a>
+              
+              
           </section>
           <div class="row">
             <div class="col-8">

@@ -1,7 +1,7 @@
 // Chuyên mục
 $(document).ready(function () {
   $.ajax({
-    url: "http://localhost:8081/timphongtro/include/get-categories-data.php",
+    url: "http://localhost:8088/timphongtro/include/get-categories-data.php",
     dataType: "json",
     success: function (data) {
       $("#categories").html("");
@@ -18,7 +18,7 @@ $(document).ready(function () {
 // Lấy tỉnh
 $(document).ready(function () {
   $.ajax({
-    url: "http://localhost:8081/timphongtro/include/get-city-data.php",
+    url: "http://localhost:8088/timphongtro/include/get-city-data.php",
     dataType: "json",
     success: function (data) {
       $("#city").html("");
@@ -42,7 +42,7 @@ function getDistrict() {
   var idCity = $("#city").val();
   $.ajax({
     url:
-      "http://localhost:8081/timphongtro/include/get-district-data.php?city_id=" +
+      "http://localhost:8088/timphongtro/include/get-district-data.php?city_id=" +
       idCity,
     dataType: "json",
     success: function (data) {
@@ -51,7 +51,7 @@ function getDistrict() {
         var district = data[i];
         var str = ` 
           <option value="${district["id"]}">
-            ${district["name"]} 
+            ${district["fullname"]} 
           </option>`;
         $("#district").append(str);
       }
@@ -67,7 +67,7 @@ function getWard() {
   var idDistrict = $("#district").val();
   $.ajax({
     url:
-      "http://localhost:8081/timphongtro/include/get-ward-data.php?district_id=" +
+      "http://localhost:8088/timphongtro/include/get-ward-data.php?district_id=" +
       idDistrict,
     dataType: "json",
     success: function (data) {

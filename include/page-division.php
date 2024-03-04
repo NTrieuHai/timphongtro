@@ -9,7 +9,7 @@
     if ($current_page > 1){
         $prev_page = $current_page - 1;
     ?>
-    <a class="page-item" href="?per_page=<?=$item_per_page?>&page=<?=$prev_page?>"><i class="fa-solid fa-angles-left"></i></a>
+    <a class="page-item" href="?per_page=<?=$item_per_page?>&page=<?=$prev_page?>"><i class="fa fa-angle-left"></i></a>
     <?php } ?>
 
     <!-- các trang -->
@@ -25,7 +25,7 @@
     <?php if ($current_page < $totalPages - 1){
         $next_page = $current_page + 1;
     ?>
-        <a class="page-item" href="?per_page=<?=$item_per_page?>&page=<?=$next_page?>"><i class="fa-solid fa-angles-right"></i></a>
+        <a class="page-item" href="?per_page=<?=$item_per_page?>&page=<?=$next_page?>"><i class="fa fa-angle-right"></i></a>
     <?php } 
         if ($current_page < $totalPages - 1){
         $end_page = $totalPages;

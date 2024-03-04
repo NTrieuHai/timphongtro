@@ -1,21 +1,11 @@
-<?php 
-// Gọi ra số lượng bài viết trong chuyên mục
-  $queryListNews = $conn->prepare("SELECT * FROM tbl_news WHERE status = 1 GROUP BY created_at DESC LIMIT 10");
-  $queryListNews->execute();
-  $resultsListNews  = $queryListNews->fetchAll(PDO::FETCH_OBJ);
+<?php
+include 'connect.php';
+$city_id=0;
+if (isset($_GET['city_id'])) $city_id = $_GET['city_id'];
+settype($city_id, "int");
+
+$stmt=$conn->prepare("SELECT id, classify, name, fullname  FROM tbl_district WHERE city_id=?");    
+$stmt->execute([$city_id]);    
+$data  = $stmt->fetchAll(PDO::FETCH_ASSOC);
+echo json_encode($data);
 ?>
-<section class="section">
-    <div class="section-header">
-        <h2 class="post_title" style = "font-size:20px">Bài viết mới</h2>
-    </div>
-    <ul class = "category" id = "category">
-        <?php foreach ($resultsListNews as $key => $value) { ?>
-            <li>
-                <h2>
-                    <i class="fa-solid fa-angle-right"></i>
-                    <a href="./news-detail.php?id=<?php echo $value -> id ?>"><?php echo  $value -> title?></a>
-                </h2>
-            </li>
-        <?php } ?>
-    </ul>
-</section>

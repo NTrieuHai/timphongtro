@@ -1,7 +1,7 @@
 // Chuyên mục
 $(document).ready(function () {
   $.ajax({
-    url: "http://localhost:8081/timphongnhanh/include/get_categories_data.php",
+    url: "http://localhost:8081/timphongtro/include/get-categories-data.php",
     dataType: "json",
     success: function (data) {
       $("#categories").html("");
@@ -18,14 +18,14 @@ $(document).ready(function () {
 // Lấy tỉnh
 $(document).ready(function () {
   $.ajax({
-    url: "http://localhost:8081/timphongnhanh/include/get_city_data.php",
+    url: "http://localhost:8081/timphongtro/include/get-city-data.php",
     dataType: "json",
     success: function (data) {
       $("#city").html("");
       for (i = 0; i < data.length; i++) {
         var city = data[i];
         var str = `<option value="${city["id"]}">
-        ${city["name"]}</option>`;
+        ${city["fullname"]}</option>`;  
         $("#city").append(str);
       }
 
@@ -42,7 +42,7 @@ function getDistrict() {
   var idCity = $("#city").val();
   $.ajax({
     url:
-      "http://localhost:8081/timphongnhanh/include/get_district_data.php?city_id=" +
+      "http://localhost:8081/timphongtro/include/get-district-data.php?city_id=" +
       idCity,
     dataType: "json",
     success: function (data) {
@@ -51,7 +51,7 @@ function getDistrict() {
         var district = data[i];
         var str = ` 
           <option value="${district["id"]}">
-            ${district["name"]} 
+            ${district["fullname"]} 
           </option>`;
         $("#district").append(str);
       }
@@ -67,20 +67,20 @@ function getWard() {
   var idDistrict = $("#district").val();
   $.ajax({
     url:
-      "http://localhost:8081/timphongnhanh/include/get_ward_data.php?district_id=" +
+      "http://localhost:8081/timphongtro/include/get-ward-data.php?district_id=" +
       idDistrict,
     dataType: "json",
     success: function (data) {
       $("#ward").html("");
       for (i = 0; i < data.length; i++) {
         var ward = data[i];
-        // var str = `
-        //   <option value="${ward["id"]}">
-        //       ${ward["name"]}
-        //   </option>`;
-        var str = ` 
-          <label><input type='checkbox' name='ward[]' value="${ward["id"]}"> ${ward["name"]}</label>
-          `;
+        var str = `
+          <option value="${ward["id"]}">
+              ${ward["name"]}
+          </option>`;
+        // var str = ` 
+        //   <label><input type='checkbox' name='ward[]' value="${ward["id"]}"> ${ward["name"]}</label>
+        //   `;
         $("#ward").append(str);
       }
     },

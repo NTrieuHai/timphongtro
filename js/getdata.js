@@ -25,7 +25,7 @@ $(document).ready(function () {
       for (i = 0; i < data.length; i++) {
         var city = data[i];
         var str = `<option value="${city["id"]}">
-        ${city["fullname"]}</option>`;  
+        ${city["name"]}</option>`;
         $("#city").append(str);
       }
 
@@ -51,7 +51,7 @@ function getDistrict() {
         var district = data[i];
         var str = ` 
           <option value="${district["id"]}">
-            ${district["fullname"]} 
+            ${district["name"]} 
           </option>`;
         $("#district").append(str);
       }
@@ -74,13 +74,13 @@ function getWard() {
       $("#ward").html("");
       for (i = 0; i < data.length; i++) {
         var ward = data[i];
-        var str = `
-          <option value="${ward["id"]}">
-              ${ward["name"]}
-          </option>`;
-        // var str = ` 
-        //   <label><input type='checkbox' name='ward[]' value="${ward["id"]}"> ${ward["name"]}</label>
-        //   `;
+        // var str = `
+        //   <option value="${ward["id"]}">
+        //       ${ward["name"]}
+        //   </option>`;
+        var str = ` 
+          <label><input type='checkbox' name='ward[]' value="${ward["id"]}"> ${ward["name"]}</label>
+          `;
         $("#ward").append(str);
       }
     },

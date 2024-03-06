@@ -49,7 +49,7 @@ $(document).ready(function () {
         for (i = 0; i < data.length; i++) {
           var district = data[i];
           var str = ` 
-            <option value="${district["id"]}">${district["name"]}</option>`;
+            <option value="${district["id"]}">${district["fullname"]}</option>`;
           $("#district").append(str);
         }
         $("#district").on("change", function (e) {
@@ -72,7 +72,7 @@ $(document).ready(function () {
         for (i = 0; i < data.length; i++) {
           var ward = data[i];
           var str = ` 
-            <option value="${ward["id"]}">${ward["name"]}</option>`;
+            <option value="${ward["id"]}">${ward["fullname"]}</option>`;
           $("#ward").append(str);
         }
       },

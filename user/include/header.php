@@ -2,7 +2,7 @@
 
 <div id="header">
         <div class="header">
-            <a href="" class= "header-name">Tìm phòng nhanh</a>
+            <a href="" class= "header-name">Tìm phòng 365</a>
             <nav class="header-navbar">
                 <ul class="navbar-menu">
                 <li class="navbar-item"><a href="../home.php" class="navlist active">Trang chủ</a></li>

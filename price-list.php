@@ -28,18 +28,18 @@
         <!--main-content -->
         <div id="post">
           <div class="post-header">
-            <h1 class="page-title">Giới thiệu về TÌM PHÒNG NHANH</h1>
+            <h1 class="page-title">Giới thiệu về TÌM PHÒNG 365</h1>
           </div>
           <section class="section">
             <div class= "section-introduce">
-              <p>ĐỪNG ĐỂ PHÒNG TRỐNG THÊM BẤT CỨ NGÀY NÀO!, đăng tin ngay tại TÌM PHÒNG NHANH và tất cả các vấn đề sẽ được giải quyết một cách nhanh nhất</p>
-              <p>ƯU ĐIỂM TÌM PHÒNG NHANH:</p>
+              <p>ĐỪNG ĐỂ PHÒNG TRỐNG THÊM BẤT CỨ NGÀY NÀO!, đăng tin ngay tại TÌM PHÒNG 365 và tất cả các vấn đề sẽ được giải quyết một cách nhanh nhất</p>
+              <p>ƯU ĐIỂM TÌM PHÒNG 365:</p>
               <ul>
                 <li class="section-item"><img src="./image/icon/icon-tick-green.svg" alt=""><p>Top đầu google về từ khóa: cho thuê phòng trọ, thuê phòng trọ, phòng trọ hồ chí minh, phòng trọ hà nội, thuê nhà nguyên căn, cho thuê căn hộ, tìm người ở ghép…với lưu lượng truy cập (traffic) cao nhất trong lĩnh vực.</p></li>
-                <li class="section-item"><img src="./image/icon/icon-tick-green.svg" alt=""><p>Tìm phòng nhanh tự hào có lượng dữ liệu bài đăng lớn nhất trong lĩnh vực cho thuê phòng trọ với hơn <strong>105.000</strong> tin trên hệ thống và tiếp tục tăng.</p></li>
-                <li class="section-item"><img src="./image/icon/icon-tick-green.svg" alt=""><p>Tìm phòng nhanh tự hào có số lượng người dùng lớn nhất trong lĩnh vực cho thuê phòng trọ với hơn <strong>300.000</strong> khách truy cập thường xuyên và hơn <strong>2.500.000</strong> lượt pageview mỗi tháng.</p></li>
-                <li class="section-item"><img src="./image/icon/icon-tick-green.svg" alt=""><p>Tìm phòng nhanh tự hào được sự tin tưởng sử dụng của hơn <strong>116.998</strong> khách hàng là chủ nhà, đại lý, môi giới đăng tin thường xuyên tại website.</p></li>
-                <li class="section-item"><img src="./image/icon/icon-tick-green.svg" alt=""><p>Tìm phòng nhanh tự hào ghi nhận <strong>80.000</strong> giao dịch thành công khi sử dụng dịch vụ tại web, mức độ <strong>hiệu quả đạt xấp xỉ 85% tổng tin đăng.</strong></p></li>
+                <li class="section-item"><img src="./image/icon/icon-tick-green.svg" alt=""><p>Tìm phòng 365 tự hào có lượng dữ liệu bài đăng lớn nhất trong lĩnh vực cho thuê phòng trọ với hơn <strong>105.000</strong> tin trên hệ thống và tiếp tục tăng.</p></li>
+                <li class="section-item"><img src="./image/icon/icon-tick-green.svg" alt=""><p>Tìm phòng 365 tự hào có số lượng người dùng lớn nhất trong lĩnh vực cho thuê phòng trọ với hơn <strong>300.000</strong> khách truy cập thường xuyên và hơn <strong>2.500.000</strong> lượt pageview mỗi tháng.</p></li>
+                <li class="section-item"><img src="./image/icon/icon-tick-green.svg" alt=""><p>Tìm phòng 365 tự hào được sự tin tưởng sử dụng của hơn <strong>116.998</strong> khách hàng là chủ nhà, đại lý, môi giới đăng tin thường xuyên tại website.</p></li>
+                <li class="section-item"><img src="./image/icon/icon-tick-green.svg" alt=""><p>Tìm phòng 365 tự hào ghi nhận <strong>80.000</strong> giao dịch thành công khi sử dụng dịch vụ tại web, mức độ <strong>hiệu quả đạt xấp xỉ 85% tổng tin đăng.</strong></p></li>
               </ul>
             </div>
           </section>
@@ -50,7 +50,7 @@
             <div class="section-content" style = "border: 1px solid #ccc;">   
               <div class="section-preface">
                 <p>
-                  Nếu bạn muốn tiếp cận với những người thuê trọ, nhà, căn hộ, homstay,... một cách nhanh chóng và hiệu quả nhất thông qua website tìm phòng nhanh của chúng tôi. Bạn có thể chọn loại gói tin đăng mà bạn muốn bài viết của mình hiển thị và tiếp cận tới nhiều người.
+                  Nếu bạn muốn tiếp cận với những người thuê trọ, nhà, căn hộ, homstay,... một cách nhanh chóng và hiệu quả nhất thông qua website tìm phòng 365 của chúng tôi. Bạn có thể chọn loại gói tin đăng mà bạn muốn bài viết của mình hiển thị và tiếp cận tới nhiều người.
                 </p>
                 <p>Dưới đây là bảng giá chi tiết các gói tin mà bạn có thể lựa chọn</p>
               </div>

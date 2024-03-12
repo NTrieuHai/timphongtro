@@ -123,8 +123,8 @@
                             <li class="note-item">Hãy điền đầy đủ những thông tin cần thiết vào form bên và gửi cho chúng tôi.</li>
                             <li class="note-item">Chúng tôi sẽ tiếp nhận thông tin, bộ phận chăm sóc khách hàng của chúng tôi sẽ liên hệ và hỗ trợ giúp bạn.</li>
                             <li class="note-item">Mọi thông tin vui lòng liên hệ:</li>
-                            <li class="note-item"><strong>Hotline: </strong>0932379943</li>
-                            <li class="note-item"><strong>Email: </strong>cskh.timphongnhanh@gmail.com</li>
+                            <li class="note-item"><strong>Hotline: </strong>0962873145</li>
+                            <li class="note-item"><strong>Email: </strong>cskh.timphong365@gmail.com</li>
                         </ul>
                     </div>
                 </section>

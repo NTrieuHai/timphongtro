@@ -8,7 +8,7 @@
             title="cho thuê phòng trọ, cho thuê nhà trọ, tìm phòng trọ"
             >
         </a>
-        <p><b>Tìm phòng nhanh</b> tự hào có lượng dữ liệu bài đăng lớn nhất trong lĩnh vực cho thuê phòng trọ và được nhiều người lựa chọn là website uy tín để lựa chọn phòng trọ, thuê nhà, căn hộ, homestay,..</p>
+        <p><b>Tìm phòng 365</b> tự hào có lượng dữ liệu bài đăng lớn nhất trong lĩnh vực cho thuê phòng trọ và được nhiều người lựa chọn là website uy tín để lựa chọn phòng trọ, thuê nhà, căn hộ, homestay,..</p>
         </div>
         <div class="col-3 footer-cubes">
         <div class="footer-title">Danh mục cho thuê</div>

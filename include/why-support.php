@@ -1,7 +1,7 @@
 <section class="section section-why">
     <div class="section-content why-content">
-        <h4 class="section-title">Tại sao lại chọn Tìm phòng nhanh?</h4>
-        <p>Chúng tôi biết bạn có rất nhiều lựa chọn, nhưng <b>Tìm phòng nhanh</b> tự hào là trang web đứng top google về các từ khóa: <b>cho thuê phòng trọ, nhà trọ, thuê nhà nguyên căn, cho thuê căn hộ, tìm người ở ghép, cho thuê mặt bằng</b>...Vì vậy tin của bạn đăng trên website sẽ tiếp cận được với nhiều khách hàng hơn, do đó giao dịch nhanh hơn, tiết kiệm chi phí hơn</p>
+        <h4 class="section-title">Tại sao lại chọn Tìm phòng 365?</h4>
+        <p>Chúng tôi biết bạn có rất nhiều lựa chọn, nhưng <b>Tìm phòng 365</b> tự hào là trang web đứng top google về các từ khóa: <b>cho thuê phòng trọ, nhà trọ, thuê nhà nguyên căn, cho thuê căn hộ, tìm người ở ghép, cho thuê mặt bằng</b>...Vì vậy tin của bạn đăng trên website sẽ tiếp cận được với nhiều khách hàng hơn, do đó giao dịch nhanh hơn, tiết kiệm chi phí hơn</p>
         <div class="why-count">
             <div class="why-count-item">
             <span class="why-count-item-number">200.250+</span>

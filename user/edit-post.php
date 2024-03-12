@@ -159,7 +159,7 @@
         <div id="main-right">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Tìm trọ nhanh</a></li>
+                    <li class="breadcrumb-item"><a href="#">Tìm trọ 365</a></li>
                     <li class="breadcrumb-item"><a href="#">Quản lý</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Đăng tin mới</li>
                 </ol>

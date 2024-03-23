@@ -140,7 +140,7 @@
                 <div class="form-group row search-item">
                     <span class="col-md-2 offset-md-2 col-form-label item-name">Email:</span>
                     <div class="col-md-6">
-                        <input type="email" class="form-control" id="user_email" name="user_email" value="<?php echo $resultsUser -> email?>" placeholder="VD: timphongnhanh@gmail.com">
+                        <input type="email" class="form-control" id="user_email" name="user_email" value="<?php echo $resultsUser -> email?>" placeholder="VD: timphong365@gmail.com">
                     </div>
                 </div>
                 <div class="form-group row search-item">
@@ -152,7 +152,7 @@
                 <div class="form-group row search-item">
                     <span class="col-md-2 offset-md-2 col-form-label item-name">Facebook:</span>
                     <div class="col-md-6">
-                        <input type="text" class="form-control" id="user_facebook" name="user_facebook" value="<?php echo $resultsUser -> facebook?>" placeholder="https://www.facebook.com/timphongnhanh">
+                        <input type="text" class="form-control" id="user_facebook" name="user_facebook" value="<?php echo $resultsUser -> facebook?>" placeholder="https://www.facebook.com/timphong365">
                     </div>
                 </div>
                 <div class="form-group row search-item">

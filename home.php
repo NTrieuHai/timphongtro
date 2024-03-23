@@ -79,7 +79,7 @@
   JOIN tbl_new_type typ ON typ.id = r.news_type_id
   JOIN tbl_categories ca ON ca.id = r.category_id
   WHERE r.status = 2 AND r.time_start <= NOW() AND r.time_stop >= NOW() AND r.news_type_id = 1
-  ORDER BY r.created_ad DESC LIMIT 2)
+  ORDER BY r.created_at DESC LIMIT 2)
   UNION ALL
   (SELECT r.*, ci.name AS city, dis.fullname AS district, wa.fullname AS ward, us.fullname AS name_user, us.phone AS phone_user,us.avatar,ca.slug AS category_slug, NOW() AS today
   FROM tbl_rooms r JOIN tbl_user us on us.id = r.user_id
@@ -89,7 +89,7 @@
   JOIN tbl_new_type typ ON typ.id = r.news_type_id
   JOIN tbl_categories ca ON ca.id = r.category_id
   WHERE r.status = 2 AND r.time_start <= NOW() AND r.time_stop >= NOW() AND r.news_type_id != 1
-  ORDER BY r.created_ad DESC LIMIT 8)");
+  ORDER BY r.created_at DESC LIMIT 8)");
   $queryRoomNew->execute();
   $resultsRoomNew = $queryRoomNew->fetchAll(PDO::FETCH_OBJ);
 ?>

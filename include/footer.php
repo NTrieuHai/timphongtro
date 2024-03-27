@@ -72,7 +72,7 @@
           <i class="fa fa-facebook" aria-hidden="true"></i>
           <span>Nhắn tin Facebook</span>
         </a>
-        <a href="https://zaloapp.com/qr/p/1eebdpmpjrc98" class="zalo">
+        <a href="https://www.m.me/bosluci.abc" class="messenger">
           <i class="fa fa-commenting-o" aria-hidden="true"></i>
           <span>Zalo: 0962.873.145</span>
         </a>

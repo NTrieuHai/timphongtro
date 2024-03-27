@@ -69,12 +69,12 @@
         </a>
         
         <a href="https://www.facebook.com/bosluci.abc" class="mes">
-          <i class="fa fa-facebook" aria-hidden="true"></i>
+          <i class="fa-brands fa-facebook" aria-hidden="true"></i>
           <span>Nhắn tin Facebook</span>
         </a>
-        <a href="https://www.m.me/bosluci.abc" class="messenger">
-          <i class="fa fa-commenting-o" aria-hidden="true"></i>
-          <span>Zalo: 0962.873.145</span>
+        <a href="https://www.m.me/bosluci.abc" class="mes">
+          <i class="fa-brands fa-facebook-messenger" aria-hidden="true"></i>
+          <span>Nhắn tin Messenger</span>
         </a>
     </div>
        

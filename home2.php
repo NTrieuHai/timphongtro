@@ -136,6 +136,15 @@
                       <span class="location-name">Hồ Chí Minh</span>
                   </span>
               </a>
+              <a href="" class="location-item city-2">
+                  <div class="location-bg">
+                      <img src="./image/anh2.jpg" alt="">
+                  </div>
+                  <span class="location-cat">
+                      Phòng trọ
+                      <span class="location-name">Đà Nẵng</span>
+                  </span>
+              </a>
               <a href="" class="location-item city-1">
                   <div class="location-bg">
                       <img src="./image/anh1.jpg" alt="">

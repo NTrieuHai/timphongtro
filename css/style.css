@@ -407,8 +407,8 @@ body {
   margin-top: 50px;
   position: relative;
 }
-.image-slider {
-}
+/*.image-slider {
+}*/
 .image-item {
   position: relative;
 }
@@ -480,8 +480,8 @@ body {
 /*----------------------------------------------------------------------------*/
 /*                                 Main                                      */
 /*----------------------------------------------------------------------------*/
-.main {
-}
+/*.main {
+}*/
 #search {
   margin-top: 25px;
 }
@@ -1152,6 +1152,7 @@ body {
 }
 .page-description {
   font-size: 16px;
+  
 }
 /*----------------------------------------------------------------------------*/
 /*                            location-city                                   */
@@ -1280,8 +1281,8 @@ tr:nth-child(even) {
 /*                            section contact-info                            */
 /*----------------------------------------------------------------------------*/
 
-.contact-info {
-}
+/*.contact-info {
+}*/
 .section-author {
   border: 1px solid #febb02;
   padding: 15px;

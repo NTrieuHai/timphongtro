@@ -17,5 +17,5 @@
     <link rel="stylesheet" href="./libs/fontawesome/css/all.min.css" />
     <link rel="stylesheet" href="./css/style-notification.css">
     <link rel="stylesheet" href="./css/style-tabs.css">
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style.css?v= <?php echo time () ?>" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">

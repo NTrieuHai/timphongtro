@@ -145,7 +145,7 @@ body {
 }
 .account .account-name ul {
   display: flex;
-  font-size: 14px;
+  font-size: 16px;
   align-items: center;
 }
 
@@ -279,7 +279,7 @@ body {
   border: none;
   color: black;
   padding: 8px;
-  font-size: 14px;
+  font-size: 16px;
   cursor: pointer;
   transition: all 0.3s ease;
   width: 49%;
@@ -323,7 +323,7 @@ body {
 }
 .header-notification .noti-number {
   position: absolute;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 22px;
   width: 22px;
   height: 22px;
@@ -362,7 +362,7 @@ body {
   display: flex;
   width: 100%;
   align-items: center;
-  font-size: 13px;
+  font-size: 14px;
   color: #000;
 }
 .noti-menu-item .avatar {

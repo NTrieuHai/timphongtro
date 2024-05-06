@@ -48,7 +48,7 @@
   JOIN tbl_new_type typ ON typ.id = r.news_type_id
   JOIN tbl_categories ca ON ca.id = r.category_id
   WHERE r.status = 2 AND r.time_start <= NOW() AND r.time_stop >= NOW() AND r.news_type_id = 1 AND ci.name = :cityName AND r.id != :id AND r.category_id = :category_id
-  ORDER BY r.created_ad DESC LIMIT 2)
+  ORDER BY r.created_at DESC LIMIT 2)
   UNION ALL
   (SELECT r.*, ci.name AS city, dis.fullname AS district, wa.fullname AS ward, us.fullname AS name_user, us.phone AS phone_user,us.avatar,ca.slug AS category_slug, NOW() AS today
   FROM tbl_rooms r JOIN tbl_user us on us.id = r.user_id
@@ -58,7 +58,7 @@
   JOIN tbl_new_type typ ON typ.id = r.news_type_id
   JOIN tbl_categories ca ON ca.id = r.category_id
   WHERE r.status = 2 AND r.time_start <= NOW() AND r.time_stop >= NOW() AND r.news_type_id != 1 AND ci.name = :cityName AND r.id != :id AND r.category_id = :category_id
-  ORDER BY r.news_type_id ASC, r.created_ad DESC LIMIT 4)");
+  ORDER BY r.news_type_id ASC, r.created_at DESC LIMIT 4)");
   $queryRoomSame-> bindParam(':cityName', $cityName, PDO::PARAM_STR);
   $queryRoomSame-> bindParam(':id', $id, PDO::PARAM_STR);
   $queryRoomSame-> bindParam(':category_id', $category_id, PDO::PARAM_STR);
@@ -74,7 +74,7 @@
   JOIN tbl_new_type typ ON typ.id = r.news_type_id
   JOIN tbl_categories ca ON ca.id = r.category_id
   WHERE r.status = 2 AND r.time_start <= NOW() AND r.time_stop >= NOW() AND r.news_type_id = 1 AND r.id != :id AND r.category_id = :category_id
-  ORDER BY r.created_ad DESC LIMIT 3)
+  ORDER BY r.created_at DESC LIMIT 3)
   UNION ALL
   (SELECT r.*, ci.name AS city, dis.fullname AS district, wa.fullname AS ward, us.fullname AS name_user, us.phone AS phone_user,us.avatar,ca.slug AS category_slug, NOW() AS today
   FROM tbl_rooms r JOIN tbl_user us on us.id = r.user_id
@@ -84,7 +84,7 @@
   JOIN tbl_new_type typ ON typ.id = r.news_type_id
   JOIN tbl_categories ca ON ca.id = r.category_id
   WHERE r.status = 2 AND r.time_start <= NOW() AND r.time_stop >= NOW() AND r.news_type_id != 1 AND r.id != :id AND r.category_id = :category_id
-  ORDER BY r.created_ad DESC LIMIT 7)");
+  ORDER BY r.created_at DESC LIMIT 7)");
   $queryRoomNew-> bindParam(':id', $id, PDO::PARAM_STR);
   $queryRoomNew-> bindParam(':category_id', $category_id, PDO::PARAM_STR);
   $queryRoomNew->execute();
@@ -99,7 +99,7 @@
    JOIN tbl_new_type typ ON typ.id = r.news_type_id
    JOIN tbl_categories ca ON ca.id = r.category_id
    WHERE r.status = 2 AND r.time_start <= NOW() AND r.time_stop >= NOW() AND r.news_type_id = 1 AND r.id != :id AND r.category_id = :category_id
-   ORDER BY r.created_ad DESC LIMIT 3)
+   ORDER BY r.created_at DESC LIMIT 3)
    UNION ALL
    (SELECT r.*, ci.name AS city, dis.fullname AS district, wa.fullname AS ward, us.fullname AS name_user, us.phone AS phone_user,us.avatar,ca.slug AS category_slug, NOW() AS today
    FROM tbl_rooms r JOIN tbl_user us on us.id = r.user_id
@@ -109,7 +109,7 @@
    JOIN tbl_new_type typ ON typ.id = r.news_type_id
    JOIN tbl_categories ca ON ca.id = r.category_id
    WHERE r.status = 2 AND r.time_start <= NOW() AND r.time_stop >= NOW() AND r.news_type_id = 2 AND r.id != :id AND r.category_id = :category_id
-   ORDER BY r.created_ad DESC LIMIT 2)");
+   ORDER BY r.created_at DESC LIMIT 2)");
    $queryRoomHot-> bindParam(':id', $id, PDO::PARAM_STR);
    $queryRoomHot-> bindParam(':category_id', $category_id, PDO::PARAM_STR);
    $queryRoomHot->execute();
@@ -210,7 +210,7 @@
                                 <span class="area mg-25 "><i class="fa-solid fa-expand"></i><?php echo $resultsRoom -> area ?>m&#178;</span>
                                 <span class="detail-time mg-25 "><i class="fa-regular fa-clock"></i>
                                 <?php 
-                                  $time = time() - strtotime($resultsRoom->created_ad);
+                                  $time = time() - strtotime($resultsRoom->created_at);
                                   if(floor($time/60/60/24)==0){
                                     if(floor($time/60/60)==0){
                                       echo(ceil($time/60)." phút trước");
@@ -449,7 +449,7 @@
                           <span class="area"><i class="fa-solid fa-expand"></i><?php echo $value -> area ?>m&#178;</span>
                           <span class="post-time">
                             <?php 
-                              $time = time() - strtotime($value->created_ad);
+                              $time = time() - strtotime($value->created_at);
                               if(floor($time/60/60/24)==0){
                                 if(floor($time/60/60)==0){
                                   echo(ceil($time/60)." phút trước");
@@ -581,7 +581,7 @@
                           </span>
                           <span class="post-time">
                             <?php 
-                              $time = time() - strtotime($value->created_ad);
+                              $time = time() - strtotime($value->created_at);
                               if(floor($time/60/60/24)==0){
                                 if(floor($time/60/60)==0){
                                   echo(ceil($time/60)." phút trước");
@@ -664,7 +664,7 @@
                           </span>
                           <span class="post-time">
                             <?php 
-                              $time = time() - strtotime($value->created_ad);
+                              $time = time() - strtotime($value->created_at);
                               if(floor($time/60/60/24)==0){
                                 if(floor($time/60/60)==0){
                                   echo(ceil($time/60)." phút trước");

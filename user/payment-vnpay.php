@@ -7,10 +7,10 @@ date_default_timezone_set('Asia/Ho_Chi_Minh');
  * and open the template in the editor.
  */
   
-$vnp_TmnCode = "S71289NY"; //Website ID in VNPAY System
-$vnp_HashSecret = "GLGPOAQECUHWSECPJHSDHXLQGMMDWQZE"; //Secret key
+$vnp_TmnCode = "ADCKL76Q"; //Website ID in VNPAY System
+$vnp_HashSecret = "Y3QZ7O4L1C4B6LPQFQQNS2NVN4R93JI2"; //Secret key
 $vnp_Url = "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html";
-$vnp_Returnurl = "http://localhost:8081/timphongnhanh/user/post-payment-vnpay.php";
+$vnp_Returnurl = "http://localhost:8088/timphongtro/user/post-payment-vnpay.php";
 $vnp_apiUrl = "http://sandbox.vnpayment.vn/merchant_webapi/merchant.html";
 //Config input format
 //Expire

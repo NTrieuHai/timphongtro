@@ -43,7 +43,7 @@
             }
         }
 
-        $secureHash = hash_hmac('sha512', $hashData, 'GLGPOAQECUHWSECPJHSDHXLQGMMDWQZE');
+        $secureHash = hash_hmac('sha512', $hashData, 'Y3QZ7O4L1C4B6LPQFQQNS2NVN4R93JI2');
 
         if ($secureHash == $vnp_SecureHash) {
             if ($_GET['vnp_ResponseCode'] == '00') {

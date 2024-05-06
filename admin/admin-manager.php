@@ -143,14 +143,14 @@
                     <li class="breadcrumb-item"><a href="#">Trang quản trị</a></li>
                     <li class="breadcrumb-item"><a href="#">Quản lý người dùng</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Quản lý tài khoản Admin</li>
-                </ol>
+                </ol>   
             </nav>
             <section class="main-right-title">
                 <div class="form-title">
                     <h1>Quản lý tài khoản Admin</h1>
                 </div>
                 <div class="account-btn">
-                <button class="btn btn-post btn-add">Tạo tài khoản admin</button>
+               <!-- <button class="btn btn-post btn-add">Tạo tài khoản admin</button>-->
                 </div>
             </section>
             <div class="main-right-table">

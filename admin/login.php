@@ -72,7 +72,7 @@
                             <input type="password" name="password" rules ="required" id="password" class ="login-input" placeholder=" ">
                             <p class="form-message"></p>
                         </div>
-                        <a href="" class = "forgot-pass">Quên mật khẩu</a>
+                      <!--  <a href="" class = "forgot-pass">Quên mật khẩu</a>-->
                         <div class = "login-btn">
                         <input type="submit" name="login" value="Đăng nhập" class = "btn">
                         </div>

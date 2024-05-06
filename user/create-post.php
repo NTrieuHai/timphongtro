@@ -206,7 +206,7 @@
                     <input type="text" name="title" class="form-focus boder-ra-5" style="width: 100%" id="post_title" value="" maxlength="120">
                     <p class="form-message"></p>
                 </div>
-                <div class="form-input form-validator">
+                <div class="form-input form-validator"> 
                     <p class="item-name">Nội dung mô tả</p>
                     <textarea type="text" name="post_content" id="post_content" class="input-content form-focus boder-ra-5" rows="20" ></textarea>
                     <p class="form-message"></p>

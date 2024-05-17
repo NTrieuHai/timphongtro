@@ -244,6 +244,7 @@
                         <option value="1">Tất cả</option>
                         <option value="2">Nam</option>
                         <option value="3">Nữ</option>
+                        <option value="4">Khác</option>
                     </select>
                     <p class="form-message"></p>
                 </div>

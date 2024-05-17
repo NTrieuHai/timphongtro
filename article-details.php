@@ -521,7 +521,7 @@
                   <a href="http://zalo.me/<?php echo $resultsRoom -> phone_user?>" class="btn author-zalo" target="_blank">
                     Liên hệ qua zalo
                   </a>
-                  <a href="<?php echo $resultsRoom -> facebook?>" class="btn author-zalo" target="_blank">
+                  <a href="http://facebook.com/bosluci.abc<?php echo $resultsRoom -> facebook?>" class="btn author-zalo" target="_blank">
                     Liên hệ qua facebook
                   </a>
                 </div>

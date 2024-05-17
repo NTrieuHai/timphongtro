@@ -274,6 +274,7 @@
                         <option value="1" <?php echo ($resultsRoom->subject == 1)?"selected":""?>>Tất cả</option>
                         <option value="2" <?php echo ($resultsRoom->subject == 2)?"selected":""?>>Nam</option>
                         <option value="3" <?php echo ($resultsRoom->subject == 3)?"selected":""?>>Nữ</option>
+                        <option value="4" <?php echo ($resultsRoom->subject == 4)?"selected":""?>>Khác</option>
                     </select>
                     <span class="form-message"></span>
                 </div>

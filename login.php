@@ -1,6 +1,7 @@
 <?php
   include './include/connect.php';
   include './include/data.php';
+  
   $err = "";
   if($_SERVER["REQUEST_METHOD"] == "POST"){
         $user = $_POST['username'];
@@ -85,6 +86,7 @@
                         <div class="form-contact form-validator">
                             <lable class="contact-title form-validator">Mật khẩu *</lable>
                             <input type="password" name="password" id="password">
+                            <img src="image/icon/eye-close.png" id ="eyeicon">
                             <span class="form-message"></span>
                         </div>
                         <div class="form-contact form-validator">
@@ -120,6 +122,19 @@
                 Validator.isRequired('#password'),    
             ],
         });
+
+        let eyeicon = document.getElementById("eyeicon");
+        let password = document.getElementById("password");
+        eyeicon.onclick= function () {
+            if(password.type == "password"){
+                password.type = "text";
+                eyeicon.src="image/icon/eye-open.png"
+            }else{
+                password.type="password";  
+                eyeicon.src="image/icon/eye-close.png"                      
+                }
+        }
+
     </script>
 </body>
 </html>

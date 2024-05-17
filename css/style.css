@@ -1367,6 +1367,14 @@ tr:nth-child(even) {
   outline-color: #41ff00;
   margin: 8px 0 5px;
 }
+.form-contact img{
+  margin-top: -75px;
+  margin-left: 90%;
+  margin-right:  10px;
+  width: 24px;
+  cursor: pointer;
+
+}
 .form-contact select {
   width: 50%;
   border: 1px solid #ccc;

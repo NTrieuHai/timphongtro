@@ -116,13 +116,13 @@
                 <div class="form-group row search-item mt-5">
                     <span class="col-md-2 offset-md-2 col-form-label item-name">Mã thành viên:</span>
                     <div class="col-md-6">
-                        <input type="text" readonly class="form-control disable" id="user_id" value="#<?php echo $resultsUser -> id ?>" name = "user_id">
+                        <input type="text" readonly class="form-control disable" id="user_id" placeholder="#<?php echo $resultsUser -> id ?>" name = "user_id">
                     </div>
                 </div>
                 <div class="form-group row search-item">
                     <span class="col-md-2 offset-md-2 col-form-label item-name">Tên đăng nhập:</span>
                     <div class="col-md-6">
-                        <input type="text" readonly class="form-control disable" id="user_username" value="<?php echo $resultsUser -> username?>" name = "user_username">
+                        <input type="text" readonly class="form-control disable" id="user_username" placeholder="<?php echo $resultsUser -> username?>" name = "user_username">
                     </div>
                 </div>
                 <div class="form-group row search-item">

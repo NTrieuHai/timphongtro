@@ -109,12 +109,12 @@
                     <div class="section-content">
                         <form action="" method="post" id = "frm-register">
                             <div class="form-contact form-validator ">
-                                <lable class="contact-title">Tên đăng nhập</lable>
+                                <lable class="contact-title">Tên đăng nhập *</lable>
                                 <input type="text" name="username"  id="username"placeholder="VD: timphong365">
                                 <span class="form-message"></span>
                             </div>
                             <div class="form-contact form-validator ">
-                                <lable class="contact-title">Mật khẩu</lable>
+                                <lable class="contact-title">Mật khẩu *</lable>
                                 <input type="password" name="password" id="password-new" placeholder="VD: Timphong365@" oninput="checkInput()">
                                 <div id="error1" style="display: none;"></div>
                                 <div id="error2" style="display: none;"></div>
@@ -125,23 +125,23 @@
                             </div>
 
                             <div class="form-contact form-validator ">
-                                <lable class="contact-title">Nhập lại mật khẩu</lable>
+                                <lable class="contact-title">Nhập lại mật khẩu *</lable>
                                 <input type="password" name="password-confirmation"  id="password-confirmation" placeholder="VD: Timphong365@">
                                 <span id = "pass-err" class="form-message"></span>
                             </div> 
                             <div class="form-contact form-validator ">
-                                <lable class="contact-title">Tên đầy đủ</lable>
+                                <lable class="contact-title">Tên đầy đủ *</lable>
                                 <input type="text" name="fullname" id="fullname"  placeholder="VD: Nguyễn Văn A">
                                 <span class="form-message"></span>
                             </div>
 
                             <div class="form-contact form-validator ">
-                                <lable class="contact-title">Số điện thoại</lable>
+                                <lable class="contact-title">Số điện thoại *</lable>
                                 <input type="text" name="phone" id="phone" placeholder="VD: 0962873145">
                                 <span class="form-message"></span>
                             </div>
                             <div class="form-contact form-validator ">
-                                <lable class="contact-title">Email</lable>
+                                <lable class="contact-title">Email *</lable>
                                 <input type="email" name="email" id="email" placeholder="VD: timphong365@gmail.com">
                                 <span class="form-message"></span>
                             </div>                            

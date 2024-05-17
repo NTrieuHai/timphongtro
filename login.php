@@ -78,12 +78,12 @@
                 <div class="section-content">
                     <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF'])?>" method="post" id = "frm-user-login">
                         <div class="form-contact form-validator">
-                            <lable  class="contact-title form-validator">Tên đăng nhập</lable>
+                            <lable  class="contact-title form-validator">Tên đăng nhập *</lable>
                             <input type="text" name="username" id="username">
                             <span class="form-message"></span>
                         </div>
                         <div class="form-contact form-validator">
-                            <lable class="contact-title form-validator">Mật khẩu</lable>
+                            <lable class="contact-title form-validator">Mật khẩu *</lable>
                             <input type="password" name="password" id="password">
                             <span class="form-message"></span>
                         </div>

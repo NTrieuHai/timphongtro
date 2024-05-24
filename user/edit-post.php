@@ -87,7 +87,7 @@
             }
             
         }
-        $sql = "UPDATE tbl_rooms SET name = :name, slug = :slug , street = :street , apartment_number = :apartment_number, price = :price, area = :area, contents = :contents, image_logo = :image_logo, subject = :subject, user_id = :user_id, category_id = :category_id, news_type_id = :news_type_id,  time_start = :time_start, time_stop = :time_stop, status = 1, created_ad = now(), updated_ad = now() WHERE id = :id";
+        $sql = "UPDATE tbl_rooms SET name = :name, slug = :slug , street = :street , apartment_number = :apartment_number, price = :price, area = :area, contents = :contents, image_logo = :image_logo, subject = :subject, user_id = :user_id, category_id = :category_id, news_type_id = :news_type_id,  time_start = :time_start, time_stop = :time_stop, status = 1, created_at = now(), update_at = now() WHERE id = :id";
         $query= $conn -> prepare($sql);
         $query->bindParam(':name',$title,PDO::PARAM_STR);
         $query->bindParam(':slug',$slug,PDO::PARAM_STR);
@@ -255,7 +255,7 @@
                     <p class="item-name">Giá cho thuê</p>
                     <div class="input-detail boder-ra-5">
                         <input type="number" name="price" class="input-content boder-ra-5 mask" id="price" style="margin: 0;" value="<?php echo $resultsRoom->price?>" >
-                        <span class="input-disabled">Đồng</span>
+                        <span class="input-disabled">Đồng/Tháng</span>
                     </div>  
                     <p style="margin-top: 8px; color: #ff9900;" >Vui lòng nhập đủ số tiền. Ví dụ 2 triệu: 2000000</p>   
                     <span class="form-message"></span>              

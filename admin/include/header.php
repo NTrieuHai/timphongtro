@@ -35,7 +35,7 @@ $id = (isset($_SESSION['loginAdmin']['id']))? $_SESSION['loginAdmin']['id']:[];
                 <iconify-icon class="down" icon="bx:chevron-down" width="18" height="18"></iconify-icon>
                 <div class="account-menu">
                     <ul>
-                        <li><a href="personal-page.php">Hồ sơ của tôi</a></li>
+                        <!--<li><a href="personal-page.php">Hồ sơ của tôi</a></li>-->
                         <li><a href="logout.php">Đăng xuất</a></li>
                     </ul>
                 </div>

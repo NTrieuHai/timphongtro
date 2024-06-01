@@ -271,7 +271,7 @@
             rules: [
 
                 Validator.isRequired('#old-password'),
-                Validator.isPassword('#old-password',6, 30),
+               // Validator.isPassword('#old-password',6, 30),
 
                 Validator.isRequired('#new-password'),
                 Validator.isPassword('#new-password',6, 30),

@@ -29,20 +29,20 @@ $stmt1 = $conn->query($sql1);
     foreach ($months as $month) {
         $found = false;
         foreach ($arr1 as $item) {
-            if ($item['month'] == "2023-{$month}") {
+            if ($item['month'] == "2024-{$month}") {
                 $found = true;
                 break;
             }
         }
         if (!$found) {
             $item1 = array(
-                "month" => "2023-{$month}",
+                "month" => "2024-{$month}",
                 "payments" => "account",
                 "total_amount" => 0,
             );
             array_push($arr1, $item1);
             $item2 = array(
-                "month" => "2023-{$month}",
+                "month" => "2024-{$month}",
                 "payments" => "VNPAY-NCB",
                 "total_amount" => 0,
             );

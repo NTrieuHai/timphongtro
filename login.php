@@ -94,7 +94,7 @@
                         </div>
                     </form>
                     <div class="form-footer">
-                        <a style="float: left;" href="./">Bạn quên mật khẩu?</a>
+                        <a style="float: left;" href="./forgotpassword.php">Bạn quên mật khẩu?</a>
                         <a style="float: right;" href="./register.php">Tạo tài khoản</a>
                     </div>
                 </div>

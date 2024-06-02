@@ -83,7 +83,7 @@
                             </span>
                             <span span class="post-time">
                                 <?php 
-                                $time = time() - strtotime($resultsRoomHot[$i]->created_ad);
+                                $time = time() - strtotime($resultsRoomHot[$i]->created_at);
                                 if(floor($time/60/60/24)==0){
                                     if(floor($time/60/60)==0){
                                     echo(ceil($time/60)." phút");

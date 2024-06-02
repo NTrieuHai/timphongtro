@@ -715,7 +715,7 @@
                           <span class="area"><i class="fa-solid fa-expand"></i><?php echo $value -> area ?>m&#178;</span>
                           <span class="post-time">
                             <?php 
-                              $time = time() - strtotime($value->created_ad);
+                              $time = time() - strtotime($value->created_at);
                               if(floor($time/60/60/24)==0){
                                 if(floor($time/60/60)==0){
                                   echo(ceil($time/60)." phút trước");

@@ -1591,6 +1591,8 @@ tr:nth-child(even) {
 .comment-act .reply-button,
 .comment-act .delete-button,
 .delete-button-reply,
+.comment-act .edit-button,
+.edit-button-reply,
 .show-more {
   border: none;
   background-color: transparent;
@@ -1602,6 +1604,8 @@ tr:nth-child(even) {
 .comment-act .reply-button:hover,
 .comment-act .delete-button:hover,
 .delete-button-reply:hover,
+.comment-act .edit-button:hover,
+.edit-button-reply:hover,
 .show-more:hover {
   cursor: pointer;
   text-decoration: underline;

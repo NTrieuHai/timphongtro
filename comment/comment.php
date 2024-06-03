@@ -42,6 +42,7 @@
               <button class="reply-button">Phản hồi</button>
               <?php if($comment -> id_user == $_SESSION['login']['id']){ ?>
                 <button class="delete-button">Xóa</button>
+                <!-- <button class="edit-button">Sửa</button> -->
             <?php }} ?>
             <span class="post-time">
               <?php 
@@ -119,6 +120,7 @@
               <?php if(isset($_SESSION['login'])) { ?>
                 <?php if($reply -> id_user == $_SESSION['login']['id']){ ?>
                   <button class="delete-button-reply">Xóa</button>
+                  <!-- <button class="edit-button-reply">Sửa</button> -->
               <?php }} ?>
               <span class="post-time">
                 <?php 

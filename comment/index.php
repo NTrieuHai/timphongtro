@@ -98,7 +98,7 @@ $id_rooms = isset($_GET['id'])?$_GET['id']:'';
                 return; 
             }
             $.ajax({
-                url: "process_reply.php",
+                url: "process-reply.php",
                 type: "POST",
                 data: form.serialize(), 
                 success: function(response) {
@@ -117,7 +117,7 @@ $id_rooms = isset($_GET['id'])?$_GET['id']:'';
             var commentId = commentDiv.data("id");
 
             $.ajax({
-                url: "delete_comment.php",
+                url: "delete-comment.php",
                 type: "POST",
                 data: { id_comment: commentId },
                 success: function(response) {
@@ -128,13 +128,14 @@ $id_rooms = isset($_GET['id'])?$_GET['id']:'';
                 }
             });
         });
+        
 
         $(document).on("click", ".delete-button-reply", function() {
             var replyDiv = $(this).closest(".reply");
             var replyId = replyDiv.data("id");
 
             $.ajax({
-                url: "delete_reply.php",
+                url: "delete-reply.php",
                 type: "POST",
                 data: { id_reply: replyId },
                 success: function(response) {

@@ -17,7 +17,7 @@
       $status = 0;
     }
 
-    $stmt = $conn->prepare("INSERT INTO tbl_replies (id_user, id_comment, reply_content, status, created_at, updated_at) VALUES (:id_user, :id_comment, :reply_content, :status, NOW(), NOW())");
+    $stmt = $conn->prepare("INSERT INTO tbl_replies (id_user, id_comment, reply_content, status, created_at, update_at) VALUES (:id_user, :id_comment, :reply_content, :status, NOW(), NOW())");
     $stmt->bindParam(":id_user", $id_user);
     $stmt->bindParam(":id_comment", $id_comment);
     $stmt->bindParam(":reply_content", $reply_content);

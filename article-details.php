@@ -521,7 +521,7 @@
                   <a href="http://zalo.me/<?php echo $resultsRoom -> phone_user?>" class="btn author-zalo" target="_blank">
                     Liên hệ qua zalo
                   </a>
-                  <a href="http://facebook.com/bosluci.abc<?php echo $resultsRoom -> facebook?>" class="btn author-zalo" target="_blank">
+                  <a href="<?php echo $resultsRoom -> facebook?>" class="btn author-zalo" target="_blank">
                     Liên hệ qua facebook
                   </a>
                 </div>
@@ -745,7 +745,7 @@
                 return;
             }
             $.ajax({
-                url: "./comment/process_comment.php",
+                url: "./comment/process-comment.php",
                 type: "POST",
                 data: $(this).serialize(), 
                 success: function(response) {
@@ -776,7 +776,7 @@
                 return; 
             }
             $.ajax({
-                url: "./comment/process_reply.php",
+                url: "./comment/process-reply.php",
                 type: "POST",
                 data: form.serialize(), 
                 success: function(response) {
@@ -796,7 +796,7 @@
             var commentId = commentDiv.data("id");
             if (confirm("Bạn có chắc muốn xóa bình luận này?")) {
               $.ajax({
-                  url: "./comment/delete_comment.php",
+                  url: "./comment/delete-comment.php",
                   type: "POST",
                   data: { id_comment: commentId },
                   success: function(response) {
@@ -815,7 +815,7 @@
             var replyId = replyDiv.data("id");
             if (confirm("Bạn có chắc muốn xóa phản hồi này?")) {
               $.ajax({
-                  url: "./comment/delete_reply.php",
+                  url: "./comment/delete-reply.php",
                   type: "POST",
                   data: { id_reply: replyId },
                   success: function(response) {

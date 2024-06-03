@@ -407,11 +407,11 @@
                 Validator.isRequired('#category', 'Vui lòng lựa chọn chuyên mục'),
 
                 Validator.isRequired('#post_title', 'Vui lòng nhập tiêu đề bài viết'),
-                Validator.minMaxLength('#post_title',30,120, 'Tiêu đề tối thiểu 30 và tối đa 120 ký tự'),
+                Validator.minMaxLength('#post_title',30,200, 'Tiêu đề tối thiểu 30 và tối đa 120 ký tự'),
 
                 Validator.isRequired('#price', 'Vui lòng nhập giá cho thuê'),
                 Validator.isRequired('#area', 'Vui lòng nhập diện tích'),
-                Validator.numberMin('#area', 10, 'Diện tích phải >= 10'),
+                Validator.numberMin('#area', 9, 'Diện tích phải >= 10'),
                 // Validator.isRequired('#upload-img', 'Vui lòng tải lên 1 hình ảnh'),
                 // Validator.isRequired('#upload-imgs', 'Vui lòng tải lên ít nhất 1 hình ảnh'),
                 

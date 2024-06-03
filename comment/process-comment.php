@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $status = 0;
     }
 
-    $stmt = $conn->prepare("INSERT INTO tbl_comments (id_user, id_rooms, comment_content, status, created_at, updated_at) VALUES (:id_user, :id_rooms, :comment_content, :status, NOW(), NOW())");
+    $stmt = $conn->prepare("INSERT INTO tbl_comments (id_user, id_rooms, comment_content, status, created_at, update_at) VALUES (:id_user, :id_rooms, :comment_content, :status, NOW(), NOW())");
     $stmt->bindParam(":id_user", $id_user);
     $stmt->bindParam(":id_rooms", $id_rooms);
     $stmt->bindParam(":comment_content", $comment_content);

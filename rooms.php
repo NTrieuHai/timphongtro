@@ -164,7 +164,7 @@
                       <img src="./image/anh2.jpg" alt="">
                   </div>
                   <span class="location-cat">
-                      Phòng trọ
+                  <?php echo $resultsCategory -> type ?>    
                       <span class="location-name">Đà Nẵng</span>
                   </span>
               </a>

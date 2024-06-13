@@ -252,10 +252,10 @@
                     <input type="text" name="phone" class=" boder-ra-5 input-disabled" id="" value = "<?php echo $phone ?>" style="width: 340px;" disabled>
                 </div>
                 <div class="form-input form-validator">
-                    <p class="item-name">Giá cho thuê</p>
+                    <p class="item-name">Giá cho thuê (/ngày nếu là Homestay)</p>
                     <div class="input-detail boder-ra-5">
                         <input type="number" name="price" class="input-content boder-ra-5 mask" id="price" style="margin: 0;" value="<?php echo $resultsRoom->price?>" >
-                        <span class="input-disabled">Đồng/Tháng</span>
+                        <span class="input-disabled">Đồng</span>
                     </div>  
                     <p style="margin-top: 8px; color: #ff9900;" >Vui lòng nhập đủ số tiền. Ví dụ 2 triệu: 2000000</p>   
                     <span class="form-message"></span>              

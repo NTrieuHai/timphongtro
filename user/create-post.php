@@ -222,7 +222,7 @@
                     </div>
                 </div>
                 <div class="form-input form-validator">
-                    <p class="item-name">Giá cho thuê / Tháng</p>
+                    <p class="item-name">Giá cho thuê (/ngày nếu là Homestay)</p>
                     <div class="input-detail boder-ra-5">
                         <input type="number" name="price" class="input-content boder-ra-5 mask" id="price" style="margin: 0;" >
                         <span class="input-disabled">Đồng</span>

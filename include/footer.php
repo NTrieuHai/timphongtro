@@ -68,11 +68,11 @@
            <span>Hotline: 0962 873 145</span>
         </a>
         
-        <a href="https://www.facebook.com/bosluci.abc" class="mes">
+        <a href="https://www.facebook.com/profile.php?id=61561748341069" class="mes">
           <i class="fa-brands fa-facebook" aria-hidden="true"></i>
           <span>Nhắn tin Facebook</span>
         </a>
-        <a href="https://www.m.me/bosluci.abc" class="mes">
+        <a href="https://www.messenger.com/t/352895647911107" class="mes">
           <i class="fa-brands fa-facebook-messenger" aria-hidden="true"></i>
           <span>Nhắn tin Messenger</span>
         </a>

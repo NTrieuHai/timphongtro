@@ -128,7 +128,7 @@
                 <div class="form-group row search-item">
                     <span class="col-md-2 offset-md-2 col-form-label item-name">Số điện thoại:</span>
                     <div class="col-md-6">
-                        <input type="phone" class="form-control" id="user_phone" value="<?php echo $resultsUser -> phone?>" name = "user_phone" >
+                        <input type="phone"readonly class="form-control" id="user_phone" value="<?php echo $resultsUser -> phone?>" name = "user_phone" >
                     </div>
                 </div>
                 <div class="form-group row search-item">
@@ -269,6 +269,7 @@
             formGroupSelector: '.form-validator',
             errorSelector: ".form-message",
             rules: [
+            
 
                 Validator.isRequired('#old-password'),
                // Validator.isPassword('#old-password',6, 30),

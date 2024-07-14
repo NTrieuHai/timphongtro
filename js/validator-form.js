@@ -196,7 +196,7 @@ Validator.isPhone = function (selector, message) {
   return {
     selector: selector,
     test: function (value) {
-      var regex = /^(?:0[0-9]{9})$/;
+      var regex = /^(?:0(2|3|5|7|8|9)[0-9]{8})$/;
       return regex.test(value)
         ? undefined
         : message || "Trường này phải là số điện thoại";

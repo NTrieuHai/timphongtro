@@ -147,11 +147,21 @@
                                                 <i class="fa-regular fa-calendar-xmark"></i>
                                                 Đã cho thuê
                                             </a>
+                                            <a href="./edit-post.php?id=<?php echo $value-> id?>&edit=1" class="btn-fix" style = "color: #1266dd;">
+                                                <i class="fa-regular fa-pen-to-square"></i>
+                                                Chỉnh sửa
+                                            </a>
+                                            
+                                            
                                         <?php }?>
                                         <?php if($value->pay_status == 1 && $value->status == 1){?>
                                             <a href="./post-unpaid.php?del=<?php echo $value-> id?>" class="btn-hide" style = "color: red;" onclick="return confirm('Bạn chắc chắn muốn hủy bài này? Số tiền bạn thanh toán sẽ được hoàn lại!');">
                                                 <i class="fa-solid fa-trash-arrow-up"></i>
                                                 Hủy
+                                            </a>
+                                            <a href="./edit-post.php?id=<?php echo $value-> id?>&edit=1" class="btn-fix" style = "color: #1266dd;">
+                                                <i class="fa-regular fa-pen-to-square"></i>
+                                                Chỉnh sửa
                                             </a>
                                         <?php }?>
                                         </div>

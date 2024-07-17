@@ -330,7 +330,7 @@
                 Validator.isRequired('#category', 'Vui lòng lựa chọn chuyên mục'),
 
                 Validator.isRequired('#post_title', 'Vui lòng nhập tiêu đề bài viết'),
-                Validator.minMaxLength('#post_title',10,200, 'Tiêu đề tối thiểu 10 và tối đa 200 ký tự'),
+                Validator.minMaxLength('#post_title',1,100, 'Tiêu đề không được trống và tối đa 100 ký tự'),
 
                 Validator.isRequired('#price', 'Vui lòng nhập giá cho thuê'),
                 Validator.isRequired('#area', 'Vui lòng nhập diện tích'),

@@ -137,7 +137,7 @@
 
                             <div class="form-contact form-validator ">
                                 <lable class="contact-title">Số điện thoại *</lable>
-                                <input type="text" name="phone" id="phone" placeholder="VD: 0962873145">
+                                <input type="number" name="phone" id="phone" placeholder="VD: 0962873145">
                                 <span class="form-message"></span>
                             </div>
                             <div class="form-contact form-validator ">
